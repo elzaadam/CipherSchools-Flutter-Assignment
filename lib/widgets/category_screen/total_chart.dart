@@ -31,6 +31,7 @@ class _TotalChartState extends State<TotalChart> {
                   child: Text(
                     'Total Expenses: ${NumberFormat.currency(locale: 'en_IN', symbol: '₹').format(total)}',
                     textScaleFactor: 1.5,
+                    // textScaler: ,
                     style: const TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
